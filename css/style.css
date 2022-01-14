@@ -1,0 +1,58 @@
+/*==================*\
+Default Styles Start
+\*==================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+.half-width{
+    width: 50%;
+    padding: 3%;
+}
+/*==================*\
+Default Styles End
+\*==================*/
+
+/*==================*\
+Navbar Styles Start
+\*==================*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3%;
+    color: #3A3A3A;
+}
+.nav-left-side-content h2{
+    font-size: 24px;
+}
+.nav-right-side-content ul{
+    display: flex;
+}
+.nav-right-side-content ul li{
+    list-style: none;
+    padding: 5px 10px;
+}
+.nav-right-side-content ul li a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-size: 16px;
+}
+/*==================*\
+Navbar Styles End
+\*==================*/
+
+/*=============================*\
+Banner/2nd Section Styles Start
+\*=============================*/
+.banner{
+    display: flex;
+}
+.banner-left-side-content h1{
+    font-size: 52px;
+}
+/*=============================*\
+Banner/2nd Section Styles End
+\*=============================*/
