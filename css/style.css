@@ -282,3 +282,92 @@ footer p{
 /*============================*\
 Footer Section Styles End
 \*============================*/
+
+
+
+/*============================*\
+Mobile Decive 480px Styles Start
+\*============================*/
+@media only screen and (max-width: 480px) {
+    /*====== navbar style =====*/
+    .navbar{
+        display: block;
+    }
+    .nav-left-side-content{
+        text-align: center;
+    }
+    .nav-left-side-content h2{
+        margin-bottom: 0;
+    }
+    .nav-right-side-content ul{
+        display: block;
+    }
+    .nav-right-side-content{
+        text-align: center;
+    }
+    .nav-right-side-content ul li{
+        margin-bottom: 7px;
+    }
+    /*====== navbar style =====*/
+
+    /*====== banner style =====*/
+    .banner{
+        display: block;
+        margin-bottom: 0;
+    }
+    .banner-left-side-content{
+        width: 100%;
+    }
+    .banner-right-side-content{
+        width: 90%;
+        margin-top: 40px;
+    }
+    /*====== banner style =====*/
+
+    /*====== brand logo style =====*/
+    .brand-logos{
+        display: none;
+    }
+    /*====== brand logo style =====*/
+
+    /*====== blog section style =====*/
+    .blog-section{
+        margin-top: 20px;
+        margin: 0 auto;
+    }
+    .blogs{
+        grid-template-columns: repeat(1, 1fr);
+        margin-left: 20px;
+    }
+    /*====== blog section style =====*/
+
+    /*====== customized section style =====*/
+    .contents{
+        display: block;
+    }
+    .customized-left-content{
+        width: 100%;
+    }
+    .customized-right-content{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .customized-right-content input, textarea{
+        width: 97%;
+    }
+    .customized-right-content button{
+        width: 100%;
+    }
+    /*====== customized section style =====*/
+}
+/*============================*\
+Mobile Decive 480px Styles End
+\*============================*/
+
+
+/*============================*\
+Tablet Decive 481px-768px Styles End
+\*============================*/
+@media only screen and (max-width: 768px) and (min-width: 481px)  {
+
+}
