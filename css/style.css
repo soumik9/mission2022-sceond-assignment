@@ -30,6 +30,15 @@ a{
 .container{
     padding: 0 15%;
 }
+@keyframes slidess {
+    from {
+      margin-left:50px;
+    }
+    to {
+      margin-left:0%;
+      width:100%;
+    }
+  }
 /*==================*\
 Default Styles End
 \*==================*/
@@ -94,11 +103,10 @@ Banner/2nd Section Styles Start
 }
 .banner-left-side-content .btn{
     border-radius: 41px;
-}
-.banner-left-side-content .btn:hover{
-    transition: 1s ease;
-    font-size: 24px;
-    letter-spacing: 1px;
+    animation-duration: 3s;
+    animation-name: slidess;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 .banner-left-side-content .btn i{
     position: relative;
