@@ -145,6 +145,7 @@ Blogs/4th Section Styles Start
     border-radius: 5px;
     padding: 15px 15px 15px 15px;
     margin-bottom: 25px;
+    margin-right: 25px;
 }
 .blog-img img{
     width: 100%;
@@ -225,10 +226,51 @@ Customized/5th Section Styles Start
 }
 .customized-right-content button{
     border: none;
-    margin-right: 225px;
+    margin-right: 185px;
     border-radius: 2px;
     margin-top: 5px;
 }
 /*============================*\
 Customized/5th Section Styles End
+\*============================*/
+
+/*============================*\
+Footer Section Styles Start
+\*============================*/
+footer{
+    text-align: center;
+    background-color: #0A0826;
+    padding: 50px 0;
+}
+footer h1{
+    font-size: 26px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0 0 10px 0;
+}
+footer p{
+    font-size: 14px;
+    color: #D9DBE1;
+    margin: 0 0 10px 0;
+}
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-icons i{
+    margin-top: 10px; 
+    color: #FFFFFF;
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+    font-size: 22px;
+    background-color: #22213C;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*============================*\
+Footer Section Styles End
 \*============================*/
