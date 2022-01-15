@@ -450,6 +450,9 @@ Tablet Decive 481px-768px Styles Start
         height: 28px;
         margin-bottom: 8px;
     }
+    .customized-right-content button{
+        width: 99%;
+    }
     /*====== customized section styles =========*/
 }
 /*====================================*\
