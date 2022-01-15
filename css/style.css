@@ -192,3 +192,43 @@ Blogs/4th Section Styles Start
 /*============================*\
 Blogs/4th Section Styles End
 \*============================*/
+
+/*============================*\
+Customized/5th Section Styles Start
+\*============================*/
+.customized-section{
+    margin-bottom: 50px;
+}
+.contents{
+    display: flex;
+    align-items: center;
+}
+.customized-left-content{
+    width: 50%;
+}
+.customized-left-content img{
+    width: 100%;
+    border-radius: 5px;
+}
+.customized-right-content{
+    width: 50%;
+    text-align: center;
+}
+.customized-right-content input, textarea{
+    width: 70%;
+    margin-bottom: 12px;
+    border-color: #E02C6D;
+    outline: none;
+}
+.customized-right-content input{
+    height: 45px; 
+}
+.customized-right-content button{
+    border: none;
+    margin-right: 225px;
+    border-radius: 2px;
+    margin-top: 5px;
+}
+/*============================*\
+Customized/5th Section Styles End
+\*============================*/
