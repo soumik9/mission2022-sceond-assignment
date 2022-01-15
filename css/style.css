@@ -289,6 +289,9 @@ Footer Section Styles End
 Mobile Decive 480px Styles Start
 \*============================*/
 @media only screen and (max-width: 480px) {
+    .container{
+        padding: 0 ;
+    }
     /*====== navbar style =====*/
     .navbar{
         display: block;
@@ -312,21 +315,39 @@ Mobile Decive 480px Styles Start
 
     /*====== banner style =====*/
     .banner{
-        display: block;
-        margin-bottom: 0;
+        /* display: block; */
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
     .banner-left-side-content{
         width: 100%;
+        margin-right: 0;
+        text-align: center;
+        margin-top: 30px;
+    }
+    .banner-left-side-content h1{
+        font-size: 28px;
     }
     .banner-right-side-content{
-        width: 90%;
-        margin-top: 40px;
+        width: 100%;
+        margin-top: 20px;
+        /* text-align: center; */
     }
     /*====== banner style =====*/
 
     /*====== brand logo style =====*/
     .brand-logos{
-        display: none;
+        display: grid;
+        grid-template-columns: repeat(4, 20%);
+        grid-column-gap: 15px;
+        align-items: center;
+        border: none;
+        padding: 0 15px;
+    }
+    .brand-logos img{
+        width: 100%;
     }
     /*====== brand logo style =====*/
 
@@ -344,6 +365,7 @@ Mobile Decive 480px Styles Start
     /*====== customized section style =====*/
     .contents{
         display: block;
+        padding: 0 4%;
     }
     .customized-left-content{
         width: 100%;
@@ -356,7 +378,8 @@ Mobile Decive 480px Styles Start
         width: 97%;
     }
     .customized-right-content button{
-        width: 100%;
+       margin-right: 0;
+       width: 99%;
     }
     /*====== customized section style =====*/
 }
