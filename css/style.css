@@ -14,7 +14,7 @@ a{
 }
 .half-width{
     width: 50%;
-    padding: 6%;
+    padding: 0 6%;
 }
 .btn{
     width: 196px;
@@ -23,6 +23,9 @@ a{
     padding: 10px 24px;
     color: #FFFFFF;
     font-weight: 700;
+}
+.container{
+    padding: 0 15%;
 }
 /*==================*\
 Default Styles End
@@ -61,10 +64,11 @@ Banner/2nd Section Styles Start
 \*=============================*/
 .banner{
     display: flex;
-    margin-top: 20px;
+    margin-top: 70px;
 }
 .banner-left-side-content{
     margin-right: 150px;
+    margin-top: 0;
 }
 .banner-left-side-content h1{
     font-size: 52px;
@@ -80,19 +84,37 @@ Banner/2nd Section Styles Start
     border-radius: 41px;
 }
 .banner-left-side-content .btn:hover{
-
     transition: 1s ease;
     font-size: 24px;
- 
 }
 .banner-left-side-content .btn i{
     position: relative;
     top: 1px;
     margin-left: 10px;
 }
-.banner-left-side-content img{
+.banner-right-side-content{
+    margin-top: 0;
+}
+.banner-right-side-content img{
     width: 100%;
+    height: 70%;
 }
 /*=============================*\
 Banner/2nd Section Styles End
 \*=============================*/
+
+/*=================================*\
+Brand logo/$rd Section Styles Start
+\*=================================*/
+.brand-logos{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ecf0f1;
+    border-bottom: 1px solid #ecf0f1;
+}
+.brand-logos img{
+    padding: 25px 0;
+}
+/*=================================*\
+Brand logo/$rd Section Styles End
+\*=================================*/
